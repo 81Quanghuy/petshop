@@ -44,7 +44,7 @@ section {
   color: #130f40;
 }
 .left-header {
-  padding-bottom: 2rem;
+  padding: 12px 0px 6px 0px;
   font-size: 2rem;
   color: #130f40;
 }
@@ -86,7 +86,7 @@ section {
   font-size: 16px;
 }
 .desProduct {
-  padding: 3rem 9%;
+  padding: 3rem 9% 0 9%;
 }
 .btn-show-reviews,
 .btn-show-description {
@@ -141,7 +141,9 @@ section {
 .btn:hover {
   color: #fff;
 }
-
+#list li {
+  margin: 6px 0px;
+}
 @-webkit-keyframes fadeIn {
   0% {
     -webkit-transform: translateY(3rem);
